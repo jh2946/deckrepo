@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.master {    
+    background-color: var(--bg1);
+    color: var(--txt);
+}
+
+.w-center {
+    display: flex;
+    justify-content: center;
+}
+
+.h-center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+.right-sep {
+    margin-left: auto !important;
+}
+
+.display-area {
+    display: flex;
+    justify-content: center;
+    margin: 80px 120px 0 120px;
+    background-color: var(--bg2);
+    border-radius: 16px;
+    padding: 100px;
+}
+
+button {
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: var(--none);
+}
+
+.hidden {
+    display: none !important;
+}
+
+

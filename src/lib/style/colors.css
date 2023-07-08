@@ -1,0 +1,37 @@
+div.master {
+    --none: #00000000;
+    --bg1: #202028;
+    --bg2: #2b2b38;
+    --bg3: #3b3b48;
+    --hlg: #ffffff40;
+    --txt: #f0f0f0;
+    --ltxt: #f0f0f0;
+    --dtxt: #000000;
+    --etxt: #ff4040;
+    --ftxt: #808080;
+    --bd1: 1px #808080 solid;
+    --bd1c: #808080 solid;
+    --dec1: linear-gradient(to right, #ffff00, #00ffff);
+    --dec2: #ffff00;
+    --pri: #2020ff;
+    --sec: #a0a0a0;
+}
+
+div.master.light, div.master.light * {
+    --none: #00000000;
+    --bg1: #ffffff;
+    --bg2: #d0d0d0;
+    --bg3: #b0b0b0;
+    --hlg: #80808040;
+    --txt: #000000;
+    --ltxt: #f0f0f0;
+    --dtxt: #000000;
+    --etxt: #d00000;
+    --ftxt: #808080;
+    --bd1: 1px #808080 solid;
+    --bd1c: #808080 solid;
+    --dec1: #008000;
+    --dec2: #008000;
+    --pri: #2020ff;
+    --sec: #a0a0a0;
+}
