@@ -1,38 +1,23 @@
-# create-svelte
+# DeckRepo
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+DeckRepo is a flash card web application where users can submit flash cards.
 
-## Creating a project
+This is currently a school project so for the time being it has a lot of security flaws. If I do develop this into a full-blown project and deploy I'll certainly patch them.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Build instructions
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+In `./.env`:
+```
+DATABASE_URL= # database url here
+EMAIL_ACC= # email address to send system emails
+EMAIL_KEY= # password or application key to the email address
+URL="127.0.0.1:5173" # domain name of the deployed site, currently sveltekit default
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+Then run in root folder:
+```
+npm install
+npx prisma migrate --name init
+npx prisma generate
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
