@@ -1,6 +1,6 @@
 # DeckRepo
 
-DeckRepo is a web application where users can submit, publish, and review flash cards. <small>yes it's a login + CRUD app i'm weak ;-;</small>
+DeckRepo is a web application where users can submit, publish, and review flash cards. ~~yes it's a login + CRUD app i'm weak ;-;~~
 
 This is currently a school project so for the time being it has a lot of security flaws. If I do develop this into a full-blown project and deploy I'll certainly patch them.
 
