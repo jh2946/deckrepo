@@ -10,6 +10,7 @@ div.master {
     --etxt: #ff4040;
     --ftxt: #808080;
     --bd1: 1px #808080 solid;
+    --bd2: 8px #808080 dashed;
     --bd1c: #808080 solid;
     --dec1: linear-gradient(to right, #ffff00, #00ffff);
     --dec2: #ffff00;
@@ -29,6 +30,7 @@ div.master.light, div.master.light * {
     --etxt: #d00000;
     --ftxt: #808080;
     --bd1: 1px #808080 solid;
+    --bd2: 8px #808080 dashed;
     --bd1c: #808080 solid;
     --dec1: #008000;
     --dec2: #008000;

@@ -49,4 +49,26 @@ button {
     display: none !important;
 }
 
+.fullscreen-container {
+    background-color: #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
 
+.view-column {
+    width: calc(50vw + 100px);
+    margin: auto;
+    padding-top: 64px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

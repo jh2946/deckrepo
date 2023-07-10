@@ -43,3 +43,24 @@ model AuthKey {
   @@index([user_id])
   @@map("auth_key")
 }
+
+model Deck {
+  id          String @id @unique
+  title       String
+  description String
+  cards       Card[]
+
+  @@map("deck")
+}
+
+model Card {
+  id         String  @id @unique
+  mediaFront String
+  textFront  String
+  mediaBack  String
+  textBack   String
+  Deck       Deck?   @relation(fields: [deckId], references: [id])
+  deckId     String?
+
+  @@map("card")
+}

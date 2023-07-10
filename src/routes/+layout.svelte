@@ -26,7 +26,7 @@
                     on:click|capture|stopPropagation={() => visible = !visible}>
                     {data.user.username}
                     &nbsp;&nbsp;
-                    <img src="down-arrow.svg" width="12" alt="">
+                    <img src="/down-arrow.svg" width="12" alt="">
                     <div class="dropdown-content" class:visible={visible} id="dropdown-content">
                         {#if !data.user.email_verified}
                             <a href="/auth/verify">Verify email</a>
@@ -35,8 +35,8 @@
                     </div>
                 </div>
             {:else}
-            <a href="/auth/register" class="right-sep">Register</a>
-            <a href="/auth/login">Login</a>
+                <a href="/auth/register" class="right-sep">Register</a>
+                <a href="/auth/login">Login</a>
             {/if}
 
         </header>
@@ -139,19 +139,6 @@
 
     header a:hover {
         background-color: var(--hlg);
-    }
-
-    .fullscreen-container {
-        background-color: #00000080;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: 1;
     }
 
     .fullscreen-media {
