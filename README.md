@@ -4,7 +4,7 @@ DeckRepo is a web application where users can submit, publish, and review flash 
 
 This is currently a school project so for the time being it has a lot of security flaws. If I do develop this into a full-blown project and deploy I'll certainly patch them.
 
-Also I'll not be reading or accepting pull requests until 1 August 2023 as this is an individual assignment, but issues that describe any problems would be nice.
+I'll not be reading or accepting pull requests until 1 August 2023 as this is an individual assignment, but issues that describe any problems would be much appreciated.
 
 ## Build instructions
 
