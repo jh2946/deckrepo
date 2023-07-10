@@ -17,7 +17,7 @@ URL="127.0.0.1:5173" # domain name of the deployed site, currently sveltekit def
 Then run in root folder:
 ```
 npm install
-npx prisma migrate --name init
+npx prisma migrate dev --name init
 npx prisma generate
 npm run dev
 ```
